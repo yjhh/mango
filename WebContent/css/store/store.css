@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+div#main_hot_goods{
+				margin: 40px 0 0 0;
+				width: 100%;
+				word-break: break-all;
+				word-wrap: break-word;
+				/*border: 1px black solid;*/
+				float: left;
+			}
+			div.main_hot_goods_thing{
+				/*border: 1px red solid;*/
+				
+				width: 220px;
+				height: 406px;	
+				display: inline-block;
+				float: left;
+				margin: 10px 0 10px 15px;
+			} 
+			div.main_hot_goods_thing p{
+				width: 220px;
+				height: 22px;
+				font-size: 14px;
+				font-family: "微软雅黑";
+				overflow:hidden;
+				word-break:keep-all;
+				white-space:nowrap;
+				text-overflow:ellipsis;
+				/*border: 1px red solid;*/
+				float: left;
+				display: block;
+				margin: 0;
+			}
+			div.main_hot_goods_info{
+				width: 220px;
+				height: 25px;
+				/*border: 1px red solid;*/
+				float: left;
+				padding: 5px 0 0 0;
+			}
+			div.main_hot_goods_info label{
+				font-weight: bold;
+				font-size: 18px;
+			}

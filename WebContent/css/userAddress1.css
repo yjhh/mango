@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+ div#body_wrap{
+	width: 100%;
+/* 	border: 1px red solid; */
+} 
+
+div#body_main{
+	margin: 0 auto;
+	width: 1000px;
+ 	/*  word-break: break-all;
+	word-wrap: break-word;  */ 
+/* 	border:1px red solid;  */
+	height:600px;
+}
+
+/*商品信息 含 商品菜单*/
+div#user_info_left{
+	width: 150px;
+	font-size: 14px ;
+	background: #F9F9F9;
+	font-family: "微软雅黑";
+	float:left;
+	/* border:1px red solid; */
+}
+div#user_info_left a:link{
+	font-size: 12px;
+	line-height: 25px;
+	text-decoration: none;
+	color: #999;
+}
+div#user_info_left a:visited{
+	color: #999;
+}
+div#user_info_left a:hover{
+	color: red;
+}
+
+div#user_info_right{
+	float:right;
+	margin:0;
+	background: white;
+	margin-right:20px;
+}
+
+div#user_info_right label{
+	float:left; 
+	width:100px;
+	display:inline-block;
+	/* border:1px red solid; */
+}
+div#myInfoType {
+	border-top: 1px dashed #CDCDCD ;
+	/* background:black; */
+}
+div#user_info_right span{
+	display: block;
+	background: #F9F9F9;
+}
+
+div#user_info_right input[type=text]{
+	height: 20px;
+	color: #666666;
+}
+div#user_info_right input[type=button]{
+	width: 115px;
+	height: 32px;
+	/*border: none;*/
+	border: 1px #FAFAFA solid;
+	border-radius: 2px;
+	background: #FFAB15;
+	color: white;
+	font-weight: bold;
+	box-shadow:1px 1px 3px black;
+	cursor: pointer;
+}
+div#user_info_right input[type=submit]{
+	width: 115px;
+	height: 32px;
+	/*border: none;*/
+	border: 1px #FAFAFA solid;
+	border-radius: 2px;
+	background: #FFAB15;
+	color: white;
+	font-weight: bold;
+	box-shadow:1px 1px 3px black;
+	cursor: pointer;
+}
+		

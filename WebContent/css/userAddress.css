@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+div#body_wrap{
+	width: 100%;
+	word-break: break-all;
+	word-wrap: break-word;
+	/* border: 1px red solid; */
+}
+div#body_main{
+	margin: 0 auto;
+	width: 1200px;
+	background:red;
+	/* height加入数据之后记得删除 */
+}
+
+/*商品信息 含 商品菜单*/
+div#user_info_left{
+	width: 147px;
+	height:500px;
+	float: left;
+	font-size: 14px ;
+	background: #F9F9F9;
+	font-family: "微软雅黑";
+}
+div#user_info_left a:link{
+	font-size: 12px;
+	line-height: 25px;
+	text-decoration: none;
+	color: #999;
+}
+div#user_info_left a:visited{
+	color: #999;
+}
+div#user_info_left a:hover{
+	color: red;
+}
+
+div#user_info_right{
+	width: 1050px;
+	background: white;
+	/* border:1px red solid; */
+	float:right;
+	height:650px;
+}
+div#myInfoType {
+	border-top: 1px dashed #CDCDCD ;
+}
+//这边样式和分页插件的样式冲撞,不知道怎么改
+/* div#user_info_right span{
+	display: block;
+	background: #F9F9F9;
+} */
+
+div#user_info_right input[type=text]{
+	height: 20px;
+	color: #666666;
+}
+div#user_info_right ul{
+	width: 100%;
+	height: 40px;
+	background: #FAFAFA;
+	margin: 0;
+	padding: 0;
+}
+div#user_info_right ul a:link{
+	color: black;
+}
+div#user_info_right ul a:visited{
+	color: black;
+}
+div#user_info_right ul li{
+	margin: 0;
+	padding: 12px 0 11px 0;
+	/*border: 1px red solid;*/
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+}	

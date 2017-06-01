@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+div#body_wrap{
+	width: 100%;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+div#body_main{
+	margin: 0 auto;
+	width: 956px;
+	/*border: 1px red solid;*/
+	word-break: break-all;
+	word-wrap: break-word;
+}
+div#body_main select{
+	border:1px #555555 solid;
+}
+div#user_info_left{
+	/*padding: 2px 0 0 5px;*/
+	width: 146px;
+	float: left;
+	background: #F9F9F9;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+div#user_info_left a:link{
+	text-decoration: none;
+	color: #999;
+	font-size: 14px;
+}
+div#user_info_right{
+	width: 805px;
+	/*border: 1px black solid;*/
+	margin: 0 0 0 148px;
+	background: white;
+	padding: 20px 0 0 20px;
+}
+div#user_info_right span{
+	color: #FF6AA2;
+		font-size: 16px;
+	font-weight: bold;
+	height: 30px;
+	display: block;
+	background: #F9F9F9;
+}
+div#myInfoType {
+	border-top: 1px dashed #CDCDCD ;
+}
+div#user_info_right label{
+	width: 100px;
+	display:  inline-block;
+	text-align: right;
+	/*border: 1px red solid;*/
+	float: left;
+	color: #666666;
+}
+div#user_info_right input[type=text]{
+	height: 20px;
+	color: #666666;
+	border:1px #999 solid;
+}	

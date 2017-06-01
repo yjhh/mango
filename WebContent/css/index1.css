@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div#main_vessel {
+	width: 100%;
+	/*background: lightcyan;*/
+	word-break: break-all;
+	word-wrap: break-word;
+	/* float: left; */
+}
+
+div#main {
+	margin: 0 auto;
+	/*background: honeydew;*/
+	width: 1200px;
+	/*border: 1px red solid;*/
+}
+
+div#main_up {
+	width: 100%;
+	height: 480px;
+	border: 1px #FF6600 solid;
+	position: relative;
+}
+
+div#main_hot {
+	margin: 40px 0 0 0;
+	width: 100%;
+	height: 150px;
+	/*border: yellow 1px solid;*/
+}
+
+div#main_hot_1 {
+	display: inline-block;
+	width: 256px;
+	height: 150px;
+	float: left;
+	background: url(../img/index/main_hot/main_hot1.jpg);
+}
+
+div#main_hot_2 {
+	display: inline-block;
+	width: 256px;
+	height: 150px;
+	float: left;
+	background: url(../img/index/main_hot/main_hot2.jpg);
+}
+
+div#main_hot_3 {
+	display: inline-block;
+	width: 256px;
+	height: 150px;
+	float: left;
+	background: url(../img/index/main_hot/main_hot3.png);
+}
+
+div#main_hot_4 {
+	display: inline-block;
+	width: 256px;
+	height: 150px;
+	background: url(../img/index/main_hot/main_hot4.png);
+}
+
+div#main_hot_normal {
+	width: 166px;
+	height: 150px;
+	float: right;
+	display: inline-block;
+	background: url(../img/index/main_hot/main_hot5.png);
+}
+
+div#main_hot img {
+	margin: 15px 0 0 130px;
+}
+
+div#main_hot_goods {
+	margin: 40px 0 0 0;
+	width: 100%;
+	word-break: break-all;
+	word-wrap: break-word;
+	/*border: 1px black solid;*/
+	float: left;
+}
+
+div.main_hot_goods_thing {
+	/*border: 1px red solid;*/
+	width: 220px;
+	height: 406px;
+	display: inline-block;
+	float: left;
+	margin: 10px 0 10px 15px;
+}
+
+div.main_hot_goods_thing p {
+	width: 220px;
+	height: 22px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	overflow: hidden;
+	word-break: keep-all;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	/*border: 1px red solid;*/
+	float: left;
+	display: block;
+	margin: 0;
+}
+
+div.main_hot_goods_info {
+	width: 220px;
+	height: 25px;
+	/*border: 1px red solid;*/
+	float: left;
+	padding: 5px 0 0 0;
+}
+
+div.main_hot_goods_info label {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+div#main_up_login {
+	top: 10px;
+	right: 10px;
+	/*border: 1px red solid;*/
+	width: 185px;
+	height: 455px;
+	position: absolute;
+	/*background: honeydew;*/
+}
+
+div#main_up_login label {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-family: '微软雅黑';
+}

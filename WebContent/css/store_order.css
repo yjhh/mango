@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0 auto;
+	width: 100%;
+}
+
+div#store_orders ul{
+	list-style:none;
+	margin:0 ;
+	padding: 0;
+}
+
+div#store_orders a{
+	text-decoration: none;
+	color: #000000;
+}
+div#store_orders a:hover{
+	color: #000000;
+}
+div#store_orders a:focus{
+	color: #FF0077;
+}
+
+
+div#main_vessel{
+	width: 100%;
+	background: linen;
+
+}
+/**
+ * 左边菜单栏
+ */
+div#left_block{
+	float: left;
+	margin-left:100px;
+	width:200px;
+	height:800px;
+	/*border: 1px springgreen solid;*/
+	background-color:lightsteelblue;
+}
+div#items{
+	float: left;
+	margin-left:10px;
+	width:170px;
+	height:670px;
+	/*border: 1px springgreen solid;*/
+}
+/**
+ * 店铺名
+ */
+div#store_name{
+	float: left;
+	width:170px;
+	height:170px;
+	/*border: 1px black solid;*/
+}
+/**
+ * 宝贝管理
+ */
+div#store_goods{
+	float: left;
+	width:170px;
+	height:190px;
+	/*border: 1px black solid;*/
+}
+/**
+ * 订单管理
+ */
+div#store_orders{
+	float: left;
+	width:170px;
+	height:200px;
+	/*border: 1px black solid;*/
+}
+/**
+  * 店铺管理
+  */
+div#store_infos{
+	float: left;
+	width:170px;
+	height:100px;
+	/*border: 1px black solid;*/
+}
+/**
+ * 右边菜单栏
+ */
+div#right_block{
+	float: right;
+	margin-right:96px;
+	width:800px;
+	height:800px;
+	/*border: 1px slateblue solid;*/
+	text-align: center;
+}
+/**
+ * 最上方菜单栏
+ */
+table#order_items{
+	width:800px;
+}
+/**
+ * 订单项
+ */
+table#order{
+	margin-left: 50px;
+	width:700px;
+	height:130px;
+	/*border:1px red solid;*/
+	background-color: antiquewhite;
+	text-align: left;
+}
+/**
+ * 表格的标题栏div
+ */
+.order-title-column li
+{
+	float:left;
+	font-weight:550;
+	text-align:center;
+	margin-top:7px;
+	}
+.order-table-column li
+{
+	float:left;
+	font-weight:550;
+	text-align:center;
+	margin-left:50px;
+	}
+div#main{
+	width: 1200px;
+	height: 800px;
+	/*border: 1px red solid;*/
+	margin: 0 auto;
+}
+
+div#store_orders label{
+	display:inline-block;
+	margin-left:45px;
+	font-size:15px;
+	margin-top:10px;
+}
+
+div#store_goods label{
+	display:inline-block;
+	margin-left:45px;
+	font-size:15px;
+	margin-top:10px;
+	}

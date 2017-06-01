@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+div#body_wrap{
+	width: 100%;
+	background: #F2F2F2;
+}
+div#body_main{
+	margin: 0 auto;
+	width: 1200px;
+	/*border: 1px red solid;*/
+}
+/*商品信息 含 商品菜单*/
+div#user_info_left{
+	/*width: 146px;*/
+	float: left;
+	margin:20px 0 0 40px;
+	font-weight: bold;
+	font-size: 14px ;
+	background: #F9F9F9;
+	font-family: "微软雅黑";
+	
+}
+div#user_info_left a:link{
+	font-size: 12px;
+	line-height: 25px;
+	text-decoration: none;
+	color: #999;
+}
+div#user_info_left a:visited{
+	color: #999;
+}
+div#user_info_left a:hover{
+	color: red;
+}
+
+div#user_info_right{
+	/*border: 1px black solid;*/
+	width: 800px;
+	height:700px;
+	margin: 0 200px 0 0;
+	background: white;
+	float: right;
+}
+
+div#myInfoType {
+	border-top: 1px dashed #CDCDCD ;
+}
+
+div#user_info_right input[type=text]{
+	height: 20px;
+	color: #666666;
+}
+div#user_info_right input[type=button]{
+	box-shadow:1px 1px 3px black;
+}
+div#user_info_right input[type=submit]{
+	width: 115px;
+    height: 32px;
+	box-shadow:1px 1px 3px black;
+	background:orange;
+	color:white;
+	font-weight:bold;
+}
+div#user_info_right ul{
+	height: 40px;
+	background: #FAFAFA;
+}
+div#user_info_right ul li{
+	padding: 12px 0 11px 0;
+	/*border: 1px red solid;*/
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+div#user_info_address{
+	width: 764px;
+	height: 330px;
+	/*border: 1px solid red;*/
+	margin: 18px;
+}
+div#user_info_address_addinfo{
+	width: 100%;
+	margin: 18px 0 0 0;
+}
+div#user_info_address input[type=button]{
+	width: 115px;
+	height: 32px;
+	/*border: none;*/
+	border: 1px #FAFAFA solid;
+	border-radius: 2px;
+	background: #FFAB15;
+	color: white;
+	font-weight: bold;
+	
+}
+div#user_info_address_addinfo label{
+	width: 100px;
+	text-align: right;
+	display: inline-block;
+	font-size: 14px;
+	color: #999;
+	float: left;
+}
